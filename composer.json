@@ -1,0 +1,31 @@
+{
+    "name": "ziiven/export-test",
+    "description": "A Flarum extension.",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.6.3"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Ziven\\exportTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ziven"
+        }
+    ],
+    "extra": {
+        "flarum-extension": {
+            "title": "Ziven Export Test",
+            "icon": {
+                "name": "fas fa-store",
+                "backgroundColor": "#68238c",
+                "color": "#fff"
+            }
+        }
+    }
+}
